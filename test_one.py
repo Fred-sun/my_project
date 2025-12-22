@@ -32,7 +32,7 @@ class  TestClass:
     @allure.tag("Fredy Tag12", "Fredy Tag22")
     @allure.link("https://www.baidu.com", name="Baidu Link")
     def test_five(self):
-        assert sum([1, 2, 3]) == 8
+        assert sum([1, 2, 3]) == 6
 
 
 
